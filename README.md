@@ -2,47 +2,17 @@
 
 # Task-for-Interview
 
-# Task-for-Interview
-
 # Task Management System
 
 This project is a full-stack **Task Management System** built with a **Django REST API** for the backend and a **React** frontend using **TypeScript** and **Tailwind CSS**. It allows users to create, update, delete, and manage tasks and comments.
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Backend Setup (Django REST API)](#backend-setup-django-rest-api)
-   - [Prerequisites](#prerequisites)
-   - [Installation and Setup](#installation-and-setup)
-   - [Running the Development Server](#running-the-development-server)
-   - [API Overview](#api-overview)
-   - [Testing the API](#testing-the-api)
-3. [Frontend Setup (React with TypeScript and Tailwind CSS)](#frontend-setup-react-with-typescript-and-tailwind-css)
-   - [Prerequisites](#frontend-prerequisites)
-   - [Installation and Setup](#frontend-installation-and-setup)
-   - [Running the Development Server](#frontend-running-the-development-server)
-   - [Frontend Build](#frontend-build)
-4. [Contributing](#contributing)
-5. [License](#license)
-
----
-
 ## Overview
-
-The **Task Management System** allows users to create, view, update, and delete tasks and comments. The backend uses **Django REST Framework** to expose API endpoints, and the frontend uses **React with TypeScript** for an interactive UI. The two parts are connected through a RESTful API.
-
----
 
 ## Backend Setup (Django REST API)
 
 ### Prerequisites
 
 Make sure you have the following installed:
-
-- **Python 3.6+**
-- **pip** (Python package installer)
-- **virtualenv** (optional, but recommended)
-- **Git**
 
 ### Installation and Setup
 
