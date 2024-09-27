@@ -17,7 +17,7 @@ Make sure you have the following installed:
 1. **Clone the repository**:
 
    \`\`\`bash
-   git clone https://github.com/your-username/task-management-backend.git
+   git clone https://github.com/yusufyi/Task-for-Interview.git
    cd task-management-backend
    \`\`\`
 
