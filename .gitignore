@@ -1,0 +1,88 @@
+# --- React (Create React App) ---
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+node_modules/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Cache directories
+.cache/
+.tmp/
+.vscode/
+
+# --- Django ---
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+
+# Django stuff:
+*.local_settings.py
+media/
+staticfiles/
+
+# Django migrations
+*/migrations/*
+
+# Pytest
+.cache
+*.cover
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pyenv
+.python-version
+
+# --- Editor / OS Specific ---
+
+# VSCode
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
