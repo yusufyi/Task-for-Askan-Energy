@@ -1,7 +1,5 @@
 # Task-For-Hexaware
 
-# Task-for-Interview
-
 # Task Management System
 
 This project is a full-stack **Task Management System** built with a **Django REST API** for the backend and a **React** frontend using **TypeScript** and **Tailwind CSS**. It allows users to create, update, delete, and manage tasks and comments.
