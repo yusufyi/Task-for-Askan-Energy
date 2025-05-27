@@ -49,16 +49,16 @@ jobs:
           python -m venv venv
           source venv/bin/activate
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r task/requirements.txt
 
       - name: Run migrations
         working-directory: backend
         run: |
           source venv/bin/activate
-          python manage.py migrate
+          python task/manage.py migrate
 
       - name: Run tests
         working-directory: backend
         run: |
           source venv/bin/activate
-          python manage.py test
+          python task/manage.py test
