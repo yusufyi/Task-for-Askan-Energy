@@ -53,14 +53,14 @@ const TaskListPage = () => {
   }
 
   return (
-    <div className="container p-4 mx-auto">
+    <div className="container p-4 mx-auto tezt-grey-100">
       <ul>
         {tasks.map((task: TaskTitleTypes) => (
           <li key={task.id} className="border-b py-4">
             <div className="flex items-center justify-between">
               <div>
                 <Link to={`/tasks/${task.id}/comments/`}>
-                  <p className="text-xl  font-semibold"> {task.title} </p>
+                  <p className="text-xl text-white font-semibold"> {task.title} </p>
                 </Link>
               </div>
               <div>
@@ -85,14 +85,14 @@ const TaskListPage = () => {
               type="text"
               value={newTask}
               onChange={(e) => setNewTask(e.target.value)}
-              placeholder="Enter a new task"
+              placeholder="Enter a new Request"
               className="flex-1 border border-gray-300 p-3 rounded-lg"
             />
             <button
               className="ml-3 bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-lg"
               onClick={handleAddTask}
             >
-              Add Task
+              Add Request
             </button>
           </div>
         </div>

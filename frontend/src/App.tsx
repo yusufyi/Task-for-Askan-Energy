@@ -9,6 +9,7 @@ import {
 import CommentListPage from "./pages/CommentListPage";
 import Header from "./components/Header";
 import LoginPage from "./pages/LoginPage";
+import Description from "./components/Description";
 
 const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
   const authToken = localStorage.getItem("authToken");
@@ -20,6 +21,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        <Description/>
 
         <div className="p-4">
           <Routes>

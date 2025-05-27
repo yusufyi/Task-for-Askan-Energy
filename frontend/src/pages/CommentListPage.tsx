@@ -96,7 +96,7 @@ const CommentListPage = () => {
   return (
     <div className="flex flex-col items-center h-screen ">
       <div className="container p-4 mx-auto w-1/2  ">
-        <h1 className="text-2xl font-bold mb-d">Comments of {taskTitle}</h1>
+        <h1 className="text-2xl  text-white font-bold mb-d">Comments of {taskTitle}</h1>
         <ul>
           {comments.map((comment: CommentsTypes) => (
             <CommentItem
