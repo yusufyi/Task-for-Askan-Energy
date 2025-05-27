@@ -23,7 +23,7 @@ jobs:
         run: |
           python -m venv env
           source env/bin/activate
-          cd api
+          cd task
           pip install -r requirements.txt
       - name: Run tests
         run: |
