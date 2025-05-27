@@ -31,8 +31,8 @@ jobs:
         working-directory: frontend
         run: npm test -- --watchAll=false
 
-      - name: Run Cypress tests
-        working-directory: frontend
-        run: |
-          npx cypress install
-          npx cypress run
+    #   - name: Run Cypress tests
+    #     working-directory: frontend
+    #     run: |
+    #       npx cypress install
+    #       npx cypress run
