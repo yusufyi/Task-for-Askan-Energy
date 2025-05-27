@@ -15,12 +15,12 @@ Make sure you have the following installed:
 ### Installation and Setup
 
 **Postman Documentation :
-### https://documenter.getpostman.com/view/33850911/2sAXxJgZUK
+### [https://documenter.getpostman.com/view/33850911/2sAXxJgZUK](https://documenter.getpostman.com/view/33850911/2sAXxJgZUK)
 
 1. **Clone the repository**:
 
    \`\`\`bash
-   git clone https://github.com/yusufyi/Task-for-Interview.git
+   git clone https://github.com/yusufyi/Task-for-Askan-Energy.git
    cd task-management-backend
    \`\`\`
 
